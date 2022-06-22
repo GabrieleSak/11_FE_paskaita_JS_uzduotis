@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lato&family=Roboto&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #f8c724;
+    /* font-weight: 900; */
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #f8c724;
+    width: 150px;
+    height: 30px;
+}
+
+td {
+    background: #4016a3;
+    color: white;
+}
+
+th {
+    background: #f8c724;
+    font-weight: bold;
+}
+
+th:nth-of-type(2) {
+    background: #d3a91e
+}
+
+.laukai {
+    display: flex;
+    width: 500px;
+    gap: 5px;
+    padding: 5px;
+}
+.laukas {
+    width: 150px;
+    flex-grow: 1;
+}
+
+.mygtukai {
+    display: flex;
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 500px;
+    gap: 5px;
+}
+
+.mygtukas {
+    width: 150px;
+    flex-grow: 1;
+}
+

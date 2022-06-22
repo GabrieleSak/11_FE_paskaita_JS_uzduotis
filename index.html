@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Užduotis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Append table</h1>
+    <div class="laukai">
+        <input class="laukas" id="vardas" type="text" placeholder="vardas" >
+        <input class="laukas" id="pavarde" type="text" placeholder="pavardė" >
+        <input class="laukas" id="amzius" type="number" placeholder="amžius" >
+    </div>
+    <div class="mygtukai">
+        <button class="mygtukas" id="prideti">Pridėti</button>
+        <button class="mygtukas" id="istrintiPirma">Ištrinti pirmą</button>
+        <button class="mygtukas" id="istrintiPaskutini">Ištrinti paskutinį</button>
+    </div>
+    
+    
+    <table id="table">
+        <thead>
+            <tr>
+                <th>VARDAS</th>
+                <th>PAVARDĖ</th>
+                <th>AMŽIUS</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td>Jonas</td>
+                <td>Rimkus</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>Vestina</td>
+                <td>Petronytė</td>
+                <td>31</td>
+            </tr>
+            <tr>
+                <td>Marius</td>
+                <td>Dulinskas</td>
+                <td>23</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
